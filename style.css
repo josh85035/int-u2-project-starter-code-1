@@ -6,8 +6,9 @@
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
     color: black;
-    text-align: center;
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color:#EDFAF5;
 }
 
 
@@ -16,4 +17,36 @@ body {
     color:white;
     text-align: center;
     background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    background-color: hsl(157, 68%, 90%);
+}
+.video{
+    display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 800px; 
+        height: 400px; 
+        background-color: hsl(160, 43%, 95%);
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .left{
+        padding: 20px;
+        margin: 20px;
+        background-color: hsl(160, 43%, 95%);
+    }
+
+
+a:hover {
+  border-style: outset;
+  border-color: black;
+  font-size: 35px;
 }
