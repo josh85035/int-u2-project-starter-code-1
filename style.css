@@ -1,52 +1,100 @@
 /* The code below puts the title of the website in the center */
 .title { 
     text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.h1{
+    font-weight: bold;
+    font: latto, sans-serif;
 }
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    background-color:#EDFAF5;
+
+    font-family: inter, sans-serif;
+    font-size: 28px;
+    background-color:#F8F9FA;
 }
 
 
-/* The code below adds a black background-color and white text color for each section heading. */
+/* 
+Dark green (#1B4332)
+Medium green (#40916C)
+Light background (#F8F9FA)
+*/
+
 .section {
     color:white;
     text-align: center;
+    justify-content: space-between;
     background-color: black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    background-color: black;
+    font-size: 36px;
+    background-color: #1B4332;
+    gap: 20px;
 }
 
 .container{
     display: flex;
+    justify-content: space-between;
     padding: 20px;
-    background-color: hsl(157, 68%, 90%);
+    background-color: #40916C;
+    border-radius: 20px;
+    gap: 20px;
 }
+
+
 .video{
     display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        width: 800px; 
-        height: 400px; 
-        background-color: hsl(160, 43%, 95%);
-        padding: 20px;
-        margin: 20px;
+    justify-content: center; 
+    align-items: center; 
+    width: 800px; 
+    height: 400px; 
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
     }
 
-    .left{
-        padding: 20px;
-        margin: 20px;
-        background-color: hsl(160, 43%, 95%);
-    }
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    padding: 20px;
+    margin: 20px;
+    max-width: 50%;
+    max-height: auto;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+/* Left side for all sections */
+.left{
+    padding: 20px;
+    margin: 20px;        
+    background-color: white;
+    border-radius: 20px;
+    font-family: inter, sans-serif;
+}
 
 
 a:hover {
   border-style: outset;
   border-color: black;
-  font-size: 35px;
+  text-decoration: underline;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B4332;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
 }
